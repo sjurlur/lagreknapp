@@ -1,0 +1,28 @@
+.layout-container {
+  padding: 2rem;
+}
+
+.actionbutton {
+  min-width: 7rem;
+  min-height: 3rem;
+  display: inline-block !important;
+  margin-top: 1rem !important;
+} 
+
+.saved {
+  animation: opacity 0.3s 1 ease;
+}
+
+.example2 {
+  margin-top: 4rem;
+}
+
+.atom_spinner_circular.inline {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+@keyframes opacity {
+  from {opacity: 0;}
+  to {opacity: 1}
+}
