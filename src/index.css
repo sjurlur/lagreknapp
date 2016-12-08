@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  max-width: 40rem !important;
+}
+
 .atom_spinner .spinner div {
   background: #fff;
 }
