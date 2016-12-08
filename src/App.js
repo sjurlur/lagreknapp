@@ -44,7 +44,7 @@ class App extends Component {
     if (this.state.saving) {
       buttonText = spinner;
     }
-    else if (this.state.saved) {
+    else if (this.state.savedOnce) {
       buttonText = 'Lagret';
     }
     else {
