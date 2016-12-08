@@ -3,3 +3,44 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.atom_spinner .spinner div {
+  background: #fff;
+}
+
+.actionbutton {
+  width: 212px !important;
+  margin-top: 1.5rem !important;
+}
+
+.actionbutton.saved {
+  background: #009657;
+  text-transform: initial;
+}
+
+.actionbutton.saved:hover {
+  border: 0;
+}
+
+.actionbutton.saved:focus {
+  border: 0;
+}
+
+.actionbutton.saved:after {
+  margin-left: 15px;
+  content: "\2713";
+}
+
+.endringer {
+  margin-top: 1rem;
+}
+
+.mainpagestyle {
+  min-height: 100%;
+}
+
+.atom_spinner.small .spinner {
+  font-size: 0.7rem !important;
+  width: 4rem !important;
+  height: 1.3rem !important;
+}
